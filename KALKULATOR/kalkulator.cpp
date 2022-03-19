@@ -19,8 +19,8 @@ int main(){
 	cout<<endl;
 	
 	cout<<"Masukan Pilihan : ";cin>>pil;
-	cout<<"Masukan bilangan pertama : ";cin>>bil1;
-	cout<<"Masukan bilangan kedua : ";cin>>bil2;	
+	cout<<"Masukan Bilangan Pertama : ";cin>>bil1;
+	cout<<"Masukan Bilangan Kedua : ";cin>>bil2;	
 	
 	switch(pil){
 	        case 1 : hasil=bil1+bil2;
