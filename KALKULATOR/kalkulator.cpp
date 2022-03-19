@@ -39,7 +39,7 @@ int main(){
 			cout<<"Salah Masukan Operator"<<endl;
 	}
 	cout<<"-----------------------------"<<endl;
-	cout<<"    "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	cout<<" "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
 	cout<<"-----------------------------"<<endl;
 	
 	getch();
