@@ -1,7 +1,6 @@
 #include <conio.h>
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 int main(){
@@ -10,7 +9,7 @@ int main(){
 	float hasil;
 	string operasi;
 	
-	cout<<"PILIH OPERATOR ARITMATIKA"<<endl;
+	cout<<"OPERATOR ARITMATIKA"<<endl;
 	cout<<"1. Penjumlahan"<<endl;
 	cout<<"2. Pengurangan"<<endl;
 	cout<<"3. Perkalian"<<endl;
@@ -18,12 +17,9 @@ int main(){
 
 	cout<<endl;
 	
-	cout<<"Masukan Pilihan : ";
-	cin>>pil;
-	cout<<"Masukan Bilangan pertama : ";
-	cin>>bil1;
-	cout<<"Masukan Bilangan kedua : ";
-	cin>>bil2;	
+	cout<<"Masukan Pilihan : ";cin>>pil;
+	cout<<"Masukan bilangan pertama : ";cin>>bil1;
+	cout<<"Masukan bilangan kedua : ";cin>>bil2;	
 	
 	switch(pil){
 	        case 1 : hasil=bil1+bil2;
